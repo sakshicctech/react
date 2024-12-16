@@ -8,7 +8,9 @@ const TodoItem = ({todo}) => {
 
     const editTodo = () => {
         console.log(todoMsg);
+        console.log(todo);
         updateTodo(todo.id,{...todo,title:todoMsg});
+        console.log(todo);
         setIsTodoEditable(false);
     }
 

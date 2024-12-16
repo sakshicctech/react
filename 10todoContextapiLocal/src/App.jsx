@@ -11,6 +11,7 @@ function App() {
   }
 
   const updateTodo = (id,todo) => {
+    console.log(todo);
     console.log(todos);
     setTodos((prev) => {
       console.log(prev);
